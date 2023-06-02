@@ -1,147 +1,155 @@
-.app-cover-flex {
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 1200px) {
+    
+    body {
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-    .app-cover-item {
-        width: 100%;
-
-        .app-header-flex {
-            display: flex;
-            justify-content: center;
-
-            .app-header-item {
-                width: 100%;
-
-                .header-cover-flex {
-                    display: flex;
-                    justify-content: space-between;
-
-                    .header-cover-item {
-                        height: 35px;
-
-                        &:first-child {
-                            width: 97%;
-                        }
-                        &:last-child {
-                            width: 3%;
-                            background-color: rgba(245, 245, 245, 0.5);
-                            font-size: 0.7rem;
-                            color: grey;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
+    .app-cover-flex {
+        display: flex;
+        justify-content: center;
+    
+        .app-cover-item {
+            width: 100%;
+    
+            .app-header-flex {
+                display: flex;
+                justify-content: center;
+    
+                .app-header-item {
+                    width: 100%;
+    
+                    .header-cover-flex {
+                        display: flex;
+                        justify-content: space-between;
+    
+                        .header-cover-item {
+                            height: 35px;
+    
+                            &:first-child {
+                                width: 97%;
+                            }
+                            &:last-child {
+                                width: 3%;
+                                background-color: rgba(245, 245, 245, 0.5);
+                                font-size: 0.7rem;
+                                color: grey;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
                         }
                     }
                 }
             }
-        }
-        .app-body-cover-flex {
-            display: flex;
-            justify-content: space-between;
-            height: 92vh;
-
-            .app-body-cover-item {
-                padding-top: 30px;
-                height: 100%;
-
-                &:first-child {
-                    width: 65%;
-
-                    .payment-form-cover-flex {
-                        width: 100%;
-                        display: flex;
-                        justify-content: center;
-
-                        .payment-form-cover-item {
-                            width: 90%;
-
-                            .payment-form-content-flex {
-                                width: 100%;
-                                display: flex;
-                                justify-content: center;
-
-                                .payment-form-content-item {
+            .app-body-cover-flex {
+                display: flex;
+                justify-content: space-between;
+                height: 92vh;
+    
+                .app-body-cover-item {
+                    padding-top: 30px;
+                    height: 100%;
+    
+                    &:first-child {
+                        width: 65%;
+    
+                        .payment-form-cover-flex {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+    
+                            .payment-form-cover-item {
+                                width: 90%;
+    
+                                .payment-form-content-flex {
                                     width: 100%;
-
-                                    .header-cover-flex {
-                                        display: flex;
-                                        justify-content: space-between;
-
-                                        .header-cover-item {
-                                            height: 45px;
-
-                                            &:first-child {
-                                                width: 20%;
-
-                                                .header-text-flex {
-                                                    width: 100%;
-                                                    display: flex;
-                                                    justify-content: center;
-
-                                                    .header-text-item {
+                                    display: flex;
+                                    justify-content: center;
+    
+                                    .payment-form-content-item {
+                                        width: 100%;
+    
+                                        .header-cover-flex {
+                                            display: flex;
+                                            justify-content: space-between;
+    
+                                            .header-cover-item {
+                                                height: 45px;
+    
+                                                &:first-child {
+                                                    width: 20%;
+    
+                                                    .header-text-flex {
                                                         width: 100%;
-
-                                                        .app-name {
-                                                            font-size: 1.1rem;
-                                                            font-weight: 500;
-                                                            margin-block-end: 0rem;
-                                                            margin-block-start: 0rem;
-                                                            color: rgba(0,0,0,0.6);
-                                                            display: flex;
-                                                            align-items: center;
-
-                                                            .app-name-icon {
-                                                                background-color: blue;
-                                                                color: #fff;
-                                                                border-radius: 100px;
-                                                                font-size: 1.3rem !important;
-                                                            }
-
-                                                            .normal-text-span {
-                                                                font-weight: normal;
-                                                                color: rgba(0,0,0,0.3);
+                                                        display: flex;
+                                                        justify-content: center;
+    
+                                                        .header-text-item {
+                                                            width: 100%;
+    
+                                                            .app-name {
+                                                                font-size: 1.1rem;
+                                                                font-weight: 500;
+                                                                margin-block-end: 0rem;
+                                                                margin-block-start: 0rem;
+                                                                color: rgba(0,0,0,0.6);
+                                                                display: flex;
+                                                                align-items: center;
+    
+                                                                .app-name-icon {
+                                                                    background-color: blue;
+                                                                    color: #fff;
+                                                                    border-radius: 100px;
+                                                                    font-size: 1.3rem !important;
+                                                                }
+    
+                                                                .normal-text-span {
+                                                                    font-weight: normal;
+                                                                    color: rgba(0,0,0,0.3);
+                                                                }
                                                             }
                                                         }
                                                     }
                                                 }
-                                            }
-                                            &:nth-child(2) {
-                                                width: 70%;
-                                            }
-                                            &:last-child {
-                                                width: 10%;
-
-                                                .header-date-cover-flex {
-                                                    width: 100%;
-                                                    display: flex;
-                                                    justify-content: flex-end;
-
-                                                    .header-date-cover-item {
-                                                        width: 90%;
-
-                                                        .date-cover-flex {
-                                                            width: 100%;
-                                                            display: flex;
-                                                            justify-content: space-between;
-
-                                                            .date-cover-item {
-                                                                width: (100%/5);
-                                                                height: 20px;
-                                                                margin-left: 2px;
-                                                                background-color: rgba(0,0,0,0.8);
-                                                                color: #fff;
-                                                                font-size: 0.7rem;
-                                                                padding: 1px;
-                                                                border-radius: 2px;
+                                                &:nth-child(2) {
+                                                    width: 70%;
+                                                }
+                                                &:last-child {
+                                                    width: 10%;
+    
+                                                    .header-date-cover-flex {
+                                                        width: 100%;
+                                                        display: flex;
+                                                        justify-content: flex-end;
+    
+                                                        .header-date-cover-item {
+                                                            width: 90%;
+    
+                                                            .date-cover-flex {
+                                                                width: 100%;
                                                                 display: flex;
-                                                                justify-content: center;
-                                                                align-items: center;
-
-                                                                &:nth-child(3) {
-                                                                    width: (100%/35) !important;
-                                                                    padding: 0px !important;
-                                                                    background-color: transparent;
-                                                                    color: #000;
+                                                                justify-content: space-between;
+    
+                                                                .date-cover-item {
+                                                                    width: (100%/5);
+                                                                    height: 20px;
+                                                                    margin-left: 2px;
+                                                                    background-color: rgba(0,0,0,0.8);
+                                                                    color: #fff;
+                                                                    font-size: 0.7rem;
+                                                                    padding: 1px;
+                                                                    border-radius: 2px;
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+    
+                                                                    &:nth-child(3) {
+                                                                        width: (100%/35) !important;
+                                                                        padding: 0px !important;
+                                                                        background-color: transparent;
+                                                                        color: #000;
+                                                                    }
                                                                 }
                                                             }
                                                         }
@@ -149,250 +157,301 @@
                                                 }
                                             }
                                         }
-                                    }
-                                    .body-cover-flex {
-                                        width: 100%;
-                                        display: flex;
-                                        justify-content: center;
-
-                                        .body-cover-item {
+                                        .body-cover-flex {
                                             width: 100%;
-
-                                            .form-cover-flex {
+                                            display: flex;
+                                            justify-content: center;
+    
+                                            .body-cover-item {
                                                 width: 100%;
-                                                display: flex;
-                                                justify-content: center;
-
-                                                .form-cover-item {
+    
+                                                .form-cover-flex {
                                                     width: 100%;
-
-                                                    .payment-form {
-
-                                                        .form-field-body-cover-flex {
-                                                            width: 100%;
-                                                            display: flex;
-                                                            justify-content: center;
-
-                                                            .form-field-body-cover-item {
+                                                    display: flex;
+                                                    justify-content: center;
+    
+                                                    .form-cover-item {
+                                                        width: 100%;
+    
+                                                        .payment-form {
+    
+                                                            .form-field-body-cover-flex {
                                                                 width: 100%;
-
-                                                                .form-field-cover-flex {
+                                                                display: flex;
+                                                                justify-content: center;
+    
+                                                                .form-field-body-cover-item {
                                                                     width: 100%;
-                                                                    display: flex;
-                                                                    justify-content: center;
-
-                                                                    .form-field-cover-item {
+    
+                                                                    .form-field-cover-flex {
                                                                         width: 100%;
-
-                                                                        .text-fields-cover-flex {
+                                                                        display: flex;
+                                                                        justify-content: center;
+    
+                                                                        .form-field-cover-item {
                                                                             width: 100%;
-                                                                            display: flex;
-                                                                            flex-direction: column;
-
-                                                                            .text-fields-cover-item {
+    
+                                                                            .text-fields-cover-flex {
                                                                                 width: 100%;
-                                                                                
-                                                                                &:first-child {
-
-                                                                                    .text-field-label-cover-flex-long {
-                                                                                        width: 100%;
-                                                                                        display: flex;
-                                                                                        justify-content: space-between;
-
-                                                                                        .text-field-label-cover-item {
-                                                                                            padding-bottom: 5px;
-
-                                                                                            &:first-child {
-                                                                                                width: 50%;
-
-                                                                                                .text-field-label {
-                                                                                                    line-height: 5px;
-
-                                                                                                    &:first-child {
-                                                                                                        font-size: 1rem;
-                                                                                                        color: #000;
-                                                                                                    }
-                                                                                                    &:last-child {
-                                                                                                        font-size: 0.9rem;
-                                                                                                        color: lightgrey;
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                            &:nth-child(2) {
-                                                                                                width: 30%;
-                                                                                            }
-                                                                                            &:last-child {
-                                                                                                width: 20%;
-                                                                                                display: flex;
-                                                                                                justify-content: flex-end;
-                                                                                                align-items: center;
-
-                                                                                                .edit-btn-text {
-                                                                                                    font-size: 1rem;
-                                                                                                    color: rgba(25, 25, 211, 0.9);
-                                                                                                    display: flex;
-                                                                                                    align-items: center;
-
-                                                                                                    .edit-icon {
-
-                                                                                                        .MuiSvgIcon-root {
-                                                                                                            font-size: 1rem !important;
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                    .text-field-cover-flex-long {
-                                                                                        width: 100%;
-                                                                                        display: flex;
-                                                                                        justify-content: center;
-
-                                                                                        .text-field-cover-item {
+                                                                                display: flex;
+                                                                                flex-direction: column;
+    
+                                                                                .text-fields-cover-item {
+                                                                                    width: 100%;
+                                                                                    
+                                                                                    &:first-child {
+    
+                                                                                        .text-field-label-cover-flex-long {
                                                                                             width: 100%;
-
-                                                                                            .text-field-long {
-                                                                                                width: 100%;
-
-                                                                                                .card-logo-flex {
-                                                                                                    width: 100%;
-                                                                                                    display: flex;
-                                                                                                    justify-content: flex-start;
-
-                                                                                                    .card-logo-item {
-                                                                                                        width: 8%;
-
-                                                                                                        .card-logo-img {
-                                                                                                            width: 100%;
+                                                                                            display: flex;
+                                                                                            justify-content: space-between;
+    
+                                                                                            .text-field-label-cover-item {
+                                                                                                padding-bottom: 5px;
+    
+                                                                                                &:first-child {
+                                                                                                    width: 50%;
+    
+                                                                                                    .text-field-label {
+                                                                                                        line-height: 5px;
+    
+                                                                                                        &:first-child {
+                                                                                                            font-size: 1rem;
+                                                                                                            color: #000;
+                                                                                                        }
+                                                                                                        &:last-child {
+                                                                                                            font-size: 0.9rem;
+                                                                                                            color: lightgrey;
                                                                                                         }
                                                                                                     }
                                                                                                 }
-                                                                                                .verified-logo-flex {
-                                                                                                    width: 100%;
+                                                                                                &:nth-child(2) {
+                                                                                                    width: 30%;
+                                                                                                }
+                                                                                                &:last-child {
+                                                                                                    width: 20%;
                                                                                                     display: flex;
                                                                                                     justify-content: flex-end;
-
-                                                                                                    .verified-logo-item {
-                                                                                                        width: 35%;
-
-                                                                                                        .verified-logo-img {
-                                                                                                            width: 100%;
+                                                                                                    align-items: center;
+    
+                                                                                                    .edit-btn-text {
+                                                                                                        font-size: 1rem;
+                                                                                                        color: rgba(25, 25, 211, 0.9);
+                                                                                                        display: flex;
+                                                                                                        align-items: center;
+    
+                                                                                                        .edit-icon {
+    
+                                                                                                            .MuiSvgIcon-root {
+                                                                                                                font-size: 1rem !important;
+                                                                                                            }
                                                                                                         }
                                                                                                     }
                                                                                                 }
                                                                                             }
                                                                                         }
-                                                                                    }
-                                                                                }
-                                                                                &:nth-child(2) {
-                                                                                    padding-top: 80px;
-
-                                                                                    .text-field-cover-flex-short {
-                                                                                        width: 100%;
-                                                                                        display: flex;
-                                                                                        justify-content: space-between;
-
-                                                                                        .text-field-cover-item {
-
-                                                                                            &:first-child {
-                                                                                                width: 45%;
-
-                                                                                                .text-field-label-cover {
-                                                                                                    padding-bottom: 5px;
-
-                                                                                                    .text-field-label {
-                                                                                                        line-height: 5px;
-
-                                                                                                        &:first-child {
-                                                                                                            font-size: 1rem;
-                                                                                                            color: #000;
-                                                                                                        }
-                                                                                                        &:last-child {
-                                                                                                            font-size: 0.9rem;
-                                                                                                            color: lightgrey;
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                            &:nth-child(2) {
-                                                                                                width: 0%;
-                                                                                            }
-                                                                                            &:last-child {
-                                                                                                width: 55%;
-
-                                                                                                .text-field-cover {
+                                                                                        .text-field-cover-flex-long {
+                                                                                            width: 100%;
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+    
+                                                                                            .text-field-cover-item {
+                                                                                                width: 100%;
+    
+                                                                                                .text-field-long {
                                                                                                     width: 100%;
-
-                                                                                                    .text-field-short {
+    
+                                                                                                    .card-logo-flex {
                                                                                                         width: 100%;
-
-                                                                                                        .apps-icon {
-                                                                                                            color: grey;
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                                &:nth-child(3) {
-                                                                                    padding-top: 80px;
-
-                                                                                    .text-field-cover-flex-short {
-                                                                                        width: 100%;
-                                                                                        display: flex;
-                                                                                        justify-content: space-between;
-
-                                                                                        .text-field-cover-item {
-
-                                                                                            &:first-child {
-                                                                                                width: 45%;
-
-                                                                                                .text-field-label-cover {
-                                                                                                    padding-bottom: 5px;
-
-                                                                                                    .text-field-label {
-                                                                                                        line-height: 5px;
-
-                                                                                                        &:first-child {
-                                                                                                            font-size: 1rem;
-                                                                                                            color: #000;
-                                                                                                        }
-                                                                                                        &:last-child {
-                                                                                                            font-size: 0.9rem;
-                                                                                                            color: lightgrey;
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                            &:nth-child(2) {
-                                                                                                width: 0%;
-                                                                                            }
-                                                                                            &:last-child {
-                                                                                                width: 55%;
-
-                                                                                                .date-field-cover-flex {
-                                                                                                    width: 100%;
-                                                                                                    display: flex;
-                                                                                                    justify-content: space-between;
-
-                                                                                                    .date-field-cover-item {
-                                                                                                        
-                                                                                                        &:first-child, &:last-child {
-                                                                                                            width: 47%;
-
-                                                                                                            .date-field {
+                                                                                                        display: flex;
+                                                                                                        justify-content: flex-start;
+    
+                                                                                                        .card-logo-item {
+                                                                                                            width: 8%;
+    
+                                                                                                            .card-logo-img {
                                                                                                                 width: 100%;
                                                                                                             }
                                                                                                         }
-                                                                                                        &:nth-child(2) {
-                                                                                                            width: 6%;
-                                                                                                            display: flex;
-                                                                                                            justify-content: center;
-                                                                                                            align-items: center;
-
-                                                                                                            .date-field-divider {
-                                                                                                                font-size: 0.8rem;
+                                                                                                    }
+                                                                                                    .verified-logo-flex {
+                                                                                                        width: 100%;
+                                                                                                        display: flex;
+                                                                                                        justify-content: flex-end;
+    
+                                                                                                        .verified-logo-item {
+                                                                                                            width: 35%;
+    
+                                                                                                            .verified-logo-img {
+                                                                                                                width: 100%;
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                    &:nth-child(2) {
+                                                                                        padding-top: 80px;
+    
+                                                                                        .text-field-cover-flex-short {
+                                                                                            width: 100%;
+                                                                                            display: flex;
+                                                                                            justify-content: space-between;
+    
+                                                                                            .text-field-cover-item {
+    
+                                                                                                &:first-child {
+                                                                                                    width: 45%;
+    
+                                                                                                    .text-field-label-cover {
+                                                                                                        padding-bottom: 5px;
+    
+                                                                                                        .text-field-label {
+                                                                                                            line-height: 5px;
+    
+                                                                                                            &:first-child {
+                                                                                                                font-size: 1rem;
+                                                                                                                color: #000;
+                                                                                                            }
+                                                                                                            &:last-child {
+                                                                                                                font-size: 0.9rem;
+                                                                                                                color: lightgrey;
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                                &:nth-child(2) {
+                                                                                                    width: 0%;
+                                                                                                }
+                                                                                                &:last-child {
+                                                                                                    width: 55%;
+    
+                                                                                                    .text-field-cover {
+                                                                                                        width: 100%;
+    
+                                                                                                        .text-field-short {
+                                                                                                            width: 100%;
+    
+                                                                                                            .apps-icon {
+                                                                                                                color: grey;
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                    &:nth-child(3) {
+                                                                                        padding-top: 80px;
+    
+                                                                                        .text-field-cover-flex-short {
+                                                                                            width: 100%;
+                                                                                            display: flex;
+                                                                                            justify-content: space-between;
+    
+                                                                                            .text-field-cover-item {
+    
+                                                                                                &:first-child {
+                                                                                                    width: 45%;
+    
+                                                                                                    .text-field-label-cover {
+                                                                                                        padding-bottom: 5px;
+    
+                                                                                                        .text-field-label {
+                                                                                                            line-height: 5px;
+    
+                                                                                                            &:first-child {
+                                                                                                                font-size: 1rem;
+                                                                                                                color: #000;
+                                                                                                            }
+                                                                                                            &:last-child {
+                                                                                                                font-size: 0.9rem;
+                                                                                                                color: lightgrey;
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                                &:nth-child(2) {
+                                                                                                    width: 0%;
+                                                                                                }
+                                                                                                &:last-child {
+                                                                                                    width: 55%;
+    
+                                                                                                    .date-field-cover-flex {
+                                                                                                        width: 100%;
+                                                                                                        display: flex;
+                                                                                                        justify-content: space-between;
+    
+                                                                                                        .date-field-cover-item {
+                                                                                                            
+                                                                                                            &:first-child, &:last-child {
+                                                                                                                width: 47%;
+    
+                                                                                                                .date-field {
+                                                                                                                    width: 100%;
+                                                                                                                }
+                                                                                                            }
+                                                                                                            &:nth-child(2) {
+                                                                                                                width: 6%;
+                                                                                                                display: flex;
+                                                                                                                justify-content: center;
+                                                                                                                align-items: center;
+    
+                                                                                                                .date-field-divider {
+                                                                                                                    font-size: 0.8rem;
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                    &:nth-child(4) {
+                                                                                        padding-top: 80px;
+    
+                                                                                        .text-field-cover-flex-short {
+                                                                                            width: 100%;
+                                                                                            display: flex;
+                                                                                            justify-content: space-between;
+    
+                                                                                            .text-field-cover-item {
+    
+                                                                                                &:first-child {
+                                                                                                    width: 45%;
+    
+                                                                                                    .text-field-label-cover {
+                                                                                                        padding-bottom: 5px;
+    
+                                                                                                        .text-field-label {
+                                                                                                            line-height: 5px;
+    
+                                                                                                            &:first-child {
+                                                                                                                font-size: 1rem;
+                                                                                                                color: #000;
+                                                                                                            }
+                                                                                                            &:last-child {
+                                                                                                                font-size: 0.9rem;
+                                                                                                                color: lightgrey;
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                                &:nth-child(2) {
+                                                                                                    width: 0%;
+                                                                                                }
+                                                                                                &:last-child {
+                                                                                                    width: 55%;
+    
+                                                                                                    .text-field-cover {
+                                                                                                        width: 100%;
+    
+                                                                                                        .text-field-short {
+                                                                                                            width: 100%;
+    
+                                                                                                            .apps-icon {
+                                                                                                                color: grey;
                                                                                                             }
                                                                                                         }
                                                                                                     }
@@ -401,81 +460,30 @@
                                                                                         }
                                                                                     }
                                                                                 }
-                                                                                &:nth-child(4) {
-                                                                                    padding-top: 80px;
-
-                                                                                    .text-field-cover-flex-short {
-                                                                                        width: 100%;
-                                                                                        display: flex;
-                                                                                        justify-content: space-between;
-
-                                                                                        .text-field-cover-item {
-
-                                                                                            &:first-child {
-                                                                                                width: 45%;
-
-                                                                                                .text-field-label-cover {
-                                                                                                    padding-bottom: 5px;
-
-                                                                                                    .text-field-label {
-                                                                                                        line-height: 5px;
-
-                                                                                                        &:first-child {
-                                                                                                            font-size: 1rem;
-                                                                                                            color: #000;
-                                                                                                        }
-                                                                                                        &:last-child {
-                                                                                                            font-size: 0.9rem;
-                                                                                                            color: lightgrey;
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                            &:nth-child(2) {
-                                                                                                width: 0%;
-                                                                                            }
-                                                                                            &:last-child {
-                                                                                                width: 55%;
-
-                                                                                                .text-field-cover {
-                                                                                                    width: 100%;
-
-                                                                                                    .text-field-short {
-                                                                                                        width: 100%;
-
-                                                                                                        .apps-icon {
-                                                                                                            color: grey;
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }
-                                                                            .form-btn-cover-flex {
-                                                                                width: 100%;
-                                                                                display: flex;
-                                                                                justify-content: center;
-
-                                                                                .form-btn-cover-item {
+                                                                                .form-btn-cover-flex {
                                                                                     width: 100%;
-                                                                                    padding-top: 80px;
-
-                                                                                    .btn-cover-flex {
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+    
+                                                                                    .form-btn-cover-item {
                                                                                         width: 100%;
-                                                                                        display: flex;
-                                                                                        justify-content: center;
-
-                                                                                        .btn-cover-item {
+                                                                                        padding-top: 80px;
+    
+                                                                                        .btn-cover-flex {
                                                                                             width: 100%;
-
-                                                                                            .form-btn {
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+    
+                                                                                            .btn-cover-item {
                                                                                                 width: 100%;
-                                                                                                height: 55px !important;
-                                                                                                color: #fff;
-                                                                                                text-transform: capitalize;
-                                                                                                text-align: center;
+    
+                                                                                                .form-btn {
+                                                                                                    width: 100%;
+                                                                                                    height: 55px !important;
+                                                                                                    color: #fff;
+                                                                                                    text-transform: capitalize;
+                                                                                                    text-align: center;
+                                                                                                }
                                                                                             }
                                                                                         }
                                                                                     }
@@ -495,202 +503,202 @@
                             }
                         }
                     }
-                }
-                &:last-child {
-                    width: 35%;
-
-                    .spacer-div {
-                        height: 10%;
-                    }
-
-                    .card-details-container-flex {
-                        width: 100%;
-                        height: 90%;
-                        display: flex;
-                        justify-content: center;
-
-                        .card-details-container-item {
-                            width: 90%;
-                            height: 100%;
-
-                            .card-details-cover-flex {
-                                width: 100%;
+                    &:last-child {
+                        width: 35%;
+    
+                        .spacer-div {
+                            height: 10%;
+                        }
+    
+                        .card-details-container-flex {
+                            width: 100%;
+                            height: 90%;
+                            display: flex;
+                            justify-content: center;
+    
+                            .card-details-container-item {
+                                width: 90%;
                                 height: 100%;
-                                display: flex;
-                                justify-content: center;
-
-                                .card-details-cover-item {
+    
+                                .card-details-cover-flex {
                                     width: 100%;
                                     height: 100%;
-                                    border-radius: 15px;
-                                    border: 0.5px solid lightgrey;
-                                    background-image: linear-gradient(to bottom, rgba(223, 223, 223, 1), rgba(223, 223, 223, 1), rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7));
-                                    position: relative;
-
-                                    .card-cover-flex {
+                                    display: flex;
+                                    justify-content: center;
+    
+                                    .card-details-cover-item {
                                         width: 100%;
-                                        display: flex;
-                                        justify-content: center;
-                                        position: absolute;
-                                        top: -75px;
-
-                                        .card-cover-item {
-                                            width: 80%;
-                                            height: 400px;
-                                            background-color: rgba(255, 255, 255, 0.6);
-                                            border: 0.5px solid rgb(243, 243, 243);
-                                            border-radius: 20px;
-                                            padding-top: 30px;
-                                            position: relative;
-
-                                            .card-hook {
-                                                position: absolute;
-                                                top: -1%;
-                                                left: 35%;
-                                                transform: translate(-50%, -50%);
-                                                transform: rotate(180deg);
-                                                height: 40px;
-                                                width: 80px;
-                                                border-radius: 150px 150px 0 0;
-                                                background-image: linear-gradient(to top, blue, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
-                                                z-index: -1;
-                                            }
-
-                                            .card-section-cover-flex {
-                                                width: 100%;
-                                                display: flex;
-                                                justify-content: center;
-
-                                                .card-section-cover-item {
-                                                    width: 90%;
-
-                                                    .card-section {
-
-                                                        &:first-child {
-                                                         
-                                                            .pin-wifi-section-flex {
-                                                                width: 100%;
-                                                                display: flex;
-                                                                justify-content: space-between;
-
-                                                                .pin-wifi-section-item {
-                                                                    width: 20%;
-
-                                                                    &:first-child {
-
-                                                                        .image-cover-flex {
-                                                                            width: 100%;
-                                                                            display: flex;
-                                                                            justify-content: flex-start;
-
-                                                                            .image-cover-item {
-                                                                                width: 80%;
-
-                                                                                .chip-img {
-                                                                                    width: 100%;
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                    &:last-child {
-
-                                                                        .image-cover-flex {
-                                                                            width: 100%;
-                                                                            display: flex;
-                                                                            justify-content: flex-end;
-
-                                                                            .image-cover-item {
-                                                                                width: 50%;
-
-                                                                                .wifi-img {
-                                                                                    width: 100%;
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                        &:nth-child(2) {
-                                                            height: 160px;
-                                                        }
-                                                        &:last-child {
-
-                                                            .name-number-section {
-
-                                                                .name-text {
-                                                                    font-size: 0.9rem;
-                                                                    color: rgba(0,0,0,0.8);
-                                                                }
-                                                                .number-text-flex {
+                                        height: 100%;
+                                        border-radius: 15px;
+                                        border: 0.5px solid lightgrey;
+                                        background-image: linear-gradient(to bottom, rgba(223, 223, 223, 1), rgba(223, 223, 223, 1), rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7));
+                                        position: relative;
+    
+                                        .card-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+                                            position: absolute;
+                                            top: -75px;
+    
+                                            .card-cover-item {
+                                                width: 80%;
+                                                height: 400px;
+                                                background-color: rgba(255, 255, 255, 0.6);
+                                                border: 0.5px solid rgb(243, 243, 243);
+                                                border-radius: 20px;
+                                                padding-top: 30px;
+                                                position: relative;
+    
+                                                .card-hook {
+                                                    position: absolute;
+                                                    top: -1%;
+                                                    left: 35%;
+                                                    transform: translate(-50%, -50%);
+                                                    transform: rotate(180deg);
+                                                    height: 40px;
+                                                    width: 80px;
+                                                    border-radius: 150px 150px 0 0;
+                                                    background-image: linear-gradient(to top, blue, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+                                                    z-index: -1;
+                                                }
+    
+                                                .card-section-cover-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+    
+                                                    .card-section-cover-item {
+                                                        width: 90%;
+    
+                                                        .card-section {
+    
+                                                            &:first-child {
+                                                             
+                                                                .pin-wifi-section-flex {
                                                                     width: 100%;
                                                                     display: flex;
-                                                                    justify-content: flex-start;
-
-                                                                    .number-text-item {
-                                                                        width: 30%;
-
-                                                                        .psw-circle-flex {
-                                                                            width: 100%;
-                                                                            display: flex;
-                                                                            justify-content: space-between;
-                                                                            align-items: center;
-
-                                                                            .psw-circle-item {
-
-                                                                                &:first-child {
-                                                                                    width: 45%;
-
-                                                                                    .circle-flex {
+                                                                    justify-content: space-between;
+    
+                                                                    .pin-wifi-section-item {
+                                                                        width: 20%;
+    
+                                                                        &:first-child {
+    
+                                                                            .image-cover-flex {
+                                                                                width: 100%;
+                                                                                display: flex;
+                                                                                justify-content: flex-start;
+    
+                                                                                .image-cover-item {
+                                                                                    width: 80%;
+    
+                                                                                    .chip-img {
                                                                                         width: 100%;
-                                                                                        display: flex;
-                                                                                        justify-content: space-between;
-
-                                                                                        .circle-item {
-                                                                                            height: 6px;
-                                                                                            width: 6px;
-                                                                                            background-color: #000;
-                                                                                            border-radius: 100px;
-                                                                                        }
                                                                                     }
                                                                                 }
-                                                                                &:last-child {
-                                                                                    width: 55%;
-                                                                                    font-size: 0.85rem;
-                                                                                    font-weight: 500;
-                                                                                    padding-left: 10px;
+                                                                            }
+                                                                        }
+                                                                        &:last-child {
+    
+                                                                            .image-cover-flex {
+                                                                                width: 100%;
+                                                                                display: flex;
+                                                                                justify-content: flex-end;
+    
+                                                                                .image-cover-item {
+                                                                                    width: 50%;
+    
+                                                                                    .wifi-img {
+                                                                                        width: 100%;
+                                                                                    }
                                                                                 }
-                                                                                
                                                                             }
                                                                         }
                                                                     }
                                                                 }
                                                             }
-                                                            .date-logo-section-flex {
-                                                                width: 100%;
-                                                                display: flex;
-                                                                justify-content: space-between;
-                                                                align-items: center;
-                                                                padding-top: 60px;
-
-                                                                .date-logo-section-item {
-                                                                    width: 30%;
-
-                                                                    &:first-child {
-                                                                        font-size: 0.85rem;
+                                                            &:nth-child(2) {
+                                                                height: 160px;
+                                                            }
+                                                            &:last-child {
+    
+                                                                .name-number-section {
+    
+                                                                    .name-text {
+                                                                        font-size: 0.9rem;
+                                                                        color: rgba(0,0,0,0.8);
                                                                     }
-                                                                    &:last-child {
-
-                                                                        .image-cover-flex {
-                                                                            width: 100%;
-                                                                            display: flex;
-                                                                            justify-content: flex-end;
-
-                                                                            .image-cover-item {
-                                                                                width: 40%;
-
-                                                                                .card-logo-img {
-                                                                                    width: 100%;
+                                                                    .number-text-flex {
+                                                                        width: 100%;
+                                                                        display: flex;
+                                                                        justify-content: flex-start;
+    
+                                                                        .number-text-item {
+                                                                            width: 30%;
+    
+                                                                            .psw-circle-flex {
+                                                                                width: 100%;
+                                                                                display: flex;
+                                                                                justify-content: space-between;
+                                                                                align-items: center;
+    
+                                                                                .psw-circle-item {
+    
+                                                                                    &:first-child {
+                                                                                        width: 45%;
+    
+                                                                                        .circle-flex {
+                                                                                            width: 100%;
+                                                                                            display: flex;
+                                                                                            justify-content: space-between;
+    
+                                                                                            .circle-item {
+                                                                                                height: 6px;
+                                                                                                width: 6px;
+                                                                                                background-color: #000;
+                                                                                                border-radius: 100px;
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                    &:last-child {
+                                                                                        width: 55%;
+                                                                                        font-size: 0.85rem;
+                                                                                        font-weight: 500;
+                                                                                        padding-left: 10px;
+                                                                                    }
+                                                                                    
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                                .date-logo-section-flex {
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                    align-items: center;
+                                                                    padding-top: 60px;
+    
+                                                                    .date-logo-section-item {
+                                                                        width: 30%;
+    
+                                                                        &:first-child {
+                                                                            font-size: 0.85rem;
+                                                                        }
+                                                                        &:last-child {
+    
+                                                                            .image-cover-flex {
+                                                                                width: 100%;
+                                                                                display: flex;
+                                                                                justify-content: flex-end;
+    
+                                                                                .image-cover-item {
+                                                                                    width: 40%;
+    
+                                                                                    .card-logo-img {
+                                                                                        width: 100%;
+                                                                                    }
                                                                                 }
                                                                             }
                                                                         }
@@ -702,132 +710,132 @@
                                                 }
                                             }
                                         }
-                                    }
-                                    .details-cover-flex {
-                                        width: 100%;
-                                        height: 100%;
-                                        display: flex;
-                                        justify-content: flex-end;
-                                        flex-direction: column;
-
-                                        .details-cover-item {
-
-                                            .details-inner-cover-flex {
-                                                width: 100%;
-                                                display: flex;
-                                                justify-content: center;
-
-                                                .details-inner-cover-item {
-                                                    width: 80%;
-
-                                                    .details-section-cover-flex {
-                                                        width: 100%;
-                                                        display: flex;
-                                                        justify-content: space-between;
-
-                                                        .details-section-cover-item {
-                                                            width: 30%;
-                                                            color: rgba(0,0,0,0.6);
-                                                            font-size: 0.8rem;
-                                                            padding-top: 10px;
-                                                            padding-bottom: 10px;
-
-                                                            &:nth-child(even) {
-                                                                text-align: right;
-                                                                color: rgba(0,0,0,0.9);
-                                                                font-weight: 600;
-                                                                display: flex;
-                                                                justify-content: flex-end;
-                                                                align-items: center;
+                                        .details-cover-flex {
+                                            width: 100%;
+                                            height: 100%;
+                                            display: flex;
+                                            justify-content: flex-end;
+                                            flex-direction: column;
+    
+                                            .details-cover-item {
+    
+                                                .details-inner-cover-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+    
+                                                    .details-inner-cover-item {
+                                                        width: 80%;
+    
+                                                        .details-section-cover-flex {
+                                                            width: 100%;
+                                                            display: flex;
+                                                            justify-content: space-between;
+    
+                                                            .details-section-cover-item {
+                                                                width: 30%;
+                                                                color: rgba(0,0,0,0.6);
+                                                                font-size: 0.8rem;
+                                                                padding-top: 10px;
+                                                                padding-bottom: 10px;
+    
+                                                                &:nth-child(even) {
+                                                                    text-align: right;
+                                                                    color: rgba(0,0,0,0.9);
+                                                                    font-weight: 600;
+                                                                    display: flex;
+                                                                    justify-content: flex-end;
+                                                                    align-items: center;
+                                                                }
                                                             }
                                                         }
                                                     }
                                                 }
-                                            }
-                                            .card-details-divider-cover {
-                                                width: 100%;
-                                                position: relative;
-
-                                                .divider-dots {
+                                                .card-details-divider-cover {
                                                     width: 100%;
-                                                    height: 30px;
-                                                    border-bottom: 1px dashed grey;
-                                                }
-                                                .divider-hook1 {
-                                                    position: absolute;
-                                                    height: 20px;
-                                                    width: 20px;
-                                                    background-color: #fff;
-                                                    border-radius: 100px;
-                                                    top: 20px;
-                                                    left: -8px;
-                                                }
-                                                .divider-hook2 {
-                                                    position: absolute;
-                                                    height: 20px;
-                                                    width: 20px;
-                                                    background-color: #fff;
-                                                    border-radius: 100px;
-                                                    top: 20px;
-                                                    right: -8px;
-                                                }
-                                            }
-                                            .card-details-footer-flex {
-                                                width: 100%;
-                                                display: flex;
-                                                justify-content: center;
-        
-                                                .card-details-footer-item {
-                                                    width: 80%;
-                                                    padding-top: 20px;
-
-                                                    .card-details-inner-footer-flex {
+                                                    position: relative;
+    
+                                                    .divider-dots {
                                                         width: 100%;
-                                                        display: flex;
-                                                        justify-content: space-between;
-        
-                                                        .card-details-inner-footer-item {
-                                                            width: 40%;
-
-                                                            &:first-child {
-
-                                                                .para1 {
-                                                                    font-size: 0.85rem;
-                                                                    color: lightgrey;
-                                                                    margin-block-end: 0.5rem;
-                                                                }
-                                                                .para2 {
-                                                                    font-size: 1.5rem;
-                                                                    font-weight: 600;
-                                                                    color: #000;
-                                                                    margin-block-start: 0.5rem;
-                    
-                                                                    .decimal-small {
-                                                                        font-size: 1rem !important;
-                                                                        font-weight: normal;
-                                                                    }
-                                                                    .currency-small {
-                                                                        font-size: 1rem !important;
-                                                                        font-weight: normal;
+                                                        height: 30px;
+                                                        border-bottom: 1px dashed grey;
+                                                    }
+                                                    .divider-hook1 {
+                                                        position: absolute;
+                                                        height: 20px;
+                                                        width: 20px;
+                                                        background-color: #fff;
+                                                        border-radius: 100px;
+                                                        top: 20px;
+                                                        left: -8px;
+                                                    }
+                                                    .divider-hook2 {
+                                                        position: absolute;
+                                                        height: 20px;
+                                                        width: 20px;
+                                                        background-color: #fff;
+                                                        border-radius: 100px;
+                                                        top: 20px;
+                                                        right: -8px;
+                                                    }
+                                                }
+                                                .card-details-footer-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+            
+                                                    .card-details-footer-item {
+                                                        width: 80%;
+                                                        padding-top: 20px;
+    
+                                                        .card-details-inner-footer-flex {
+                                                            width: 100%;
+                                                            display: flex;
+                                                            justify-content: space-between;
+            
+                                                            .card-details-inner-footer-item {
+                                                                width: 40%;
+    
+                                                                &:first-child {
+    
+                                                                    .para1 {
+                                                                        font-size: 0.85rem;
                                                                         color: lightgrey;
+                                                                        margin-block-end: 0.5rem;
+                                                                    }
+                                                                    .para2 {
+                                                                        font-size: 1.5rem;
+                                                                        font-weight: 600;
+                                                                        color: #000;
+                                                                        margin-block-start: 0.5rem;
+                        
+                                                                        .decimal-small {
+                                                                            font-size: 1rem !important;
+                                                                            font-weight: normal;
+                                                                        }
+                                                                        .currency-small {
+                                                                            font-size: 1rem !important;
+                                                                            font-weight: normal;
+                                                                            color: lightgrey;
+                                                                        }
+                                                                    }
+                                                                }
+                                                                &:last-child {
+                                                                    display: flex;
+                                                                    justify-content: flex-end;
+                                                                    align-items: center;
+    
+                                                                    .print-icon-p {
+    
+                                                                        .print-icon {
+                                                                            font-size: 1.8rem;
+                                                                            color: rgba(0,0,0,0.8);
+                                                                        }
                                                                     }
                                                                 }
                                                             }
-                                                            &:last-child {
-                                                                display: flex;
-                                                                justify-content: flex-end;
-                                                                align-items: center;
-
-                                                                .print-icon-p {
-
-                                                                    .print-icon {
-                                                                        font-size: 1.8rem;
-                                                                        color: rgba(0,0,0,0.8);
-                                                                    }
-                                                                }
-                                                            }
+    
                                                         }
-
                                                     }
                                                 }
                                             }
