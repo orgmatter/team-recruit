@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import PaymentForm from './components/PaymentForm';
+import CardDetails from './components/CardDetails';
+import { Images } from './images';
+import { cardPropsUtil } from './utils/cardPropsUtil';
+import './sass/app.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-cover-flex">
+      <div className="app-cover-item">
+        <div className="app-header-flex">
+          <div className="app-header-item">
+            <Header />
+          </div>
+        </div>
+        <div className="app-body-cover-flex">
+          <div className="app-body-cover-item">
+            <PaymentForm images={Images} />
+          </div>
+          <div className="app-body-cover-item">
+            <div className="spacer-div"></div>
+            <CardDetails images={Images} cardPropsUtil={cardPropsUtil} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

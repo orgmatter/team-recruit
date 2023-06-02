@@ -1,0 +1,49 @@
+// large laptop screen
+@media screen and (max-width: 1700px) {
+    
+    @import url(laptop-lg.scss);
+}
+
+// medium laptop screen
+@media screen and (max-width: 1500px) {
+    
+    body {
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    @import url(laptop-md.scss);
+}
+
+// small laptop screen
+@media screen and (max-width: 1200px) {
+    
+    body {
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    @import url(laptop-sm.scss);
+}
+
+// tablet screen
+@media screen and (max-width: 850px) {
+    
+    body {
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    @import url(tablet.scss);
+}
+
+// mobile screen
+@media screen and (max-width: 650px) {
+    
+    body {
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    @import url(mobile.scss);
+}
